@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 html {
 	max-width: 1050px;
 	margin-left: auto;
@@ -7,6 +8,10 @@ html {
 	padding-bottom: 200px;
 	 }
 
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+	font-family: Georgia, serif;
+}
 a {color: royalblue; }
 a:hover {color: lightblue; }
 
@@ -17,5 +22,24 @@ a:hover {color: lightblue; }
 	margin-bottom: 20px;
 	background-color: #eee;
 	}
-
 .entry h2 { margin: 5px auto 2px auto; }
+dt {
+	font-weight: bold ;
+}
+body {
+	background: #1b1b1b ;
+	font-size: 19px;
+	color: #fff ;
+	margin-bottom: 200px ;
+	font-family: "Garamond", Georgia, serif, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
+}
+
+p {
+	font-size: 18px;
+}
+
+.lw, dt img, dd img, p img, li img, h1 img, h2 img, h3 img, h4 img, dt img, td img, button img {
+	max-height: .8em;
+	max-width: 1em;
+	vertical-align: middle ;
+}
