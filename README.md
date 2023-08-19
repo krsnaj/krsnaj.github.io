@@ -1,8 +1,7 @@
-# This repo is archived.
 
-I no longer use or maintain this script as of several years now. I moved to
-Hugo to deal with static sites to have tagging abilities and other things.
+# FORKED FROM https://github.com/lukesmithxyz/lb
 
+## README FOR LB HERE
 
 # lb and sup -- Luke's Blog Script and Site Updater
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@400;600&display=swap');
 html {
 	max-width: 1050px;
 	margin-left: auto;
@@ -10,7 +10,7 @@ html {
 
 h1,h2,h3,h4,h5,h6 {
 	text-align: center;
-	font-family: Georgia, serif;
+	font-family: "IBM Plex Serif", serif;
 }
 a {color: royalblue; }
 a:hover {color: lightblue; }
@@ -20,7 +20,7 @@ a:hover {color: lightblue; }
 	padding: 0px 10px 0px 10px;
 	border-radius: 0 30px 30px 0;
 	margin-bottom: 20px;
-	background-color: #eee;
+	background-color: #1b1b1b;
 	}
 .entry h2 { margin: 5px auto 2px auto; }
 dt {
@@ -31,7 +31,7 @@ body {
 	font-size: 19px;
 	color: #fff ;
 	margin-bottom: 200px ;
-	font-family: "Garamond", Georgia, serif, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
+	font-family: "IBM Plex Serif", "Garamond", Georgia, serif, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
 }
 
 p {
@@ -43,3 +43,9 @@ p {
 	max-width: 1em;
 	vertical-align: middle ;
 }
+
+h1 { color: chocolate ; }
+h2 { color: sandybrown ; }
+h3 { color: tan ; }
+h4 { color: wheat ; }
+h5, h6 { color: cornsilk ; }
