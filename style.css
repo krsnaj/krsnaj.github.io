@@ -12,6 +12,13 @@ h1,h2,h3,h4,h5,h6 {
 	text-align: center;
 	font-family: "IBM Plex Serif", serif;
 }
+
+.lw, dt img, dd img, p img, li img, h1 img, h2 img, h3 img, h4 img, dt img, td img, button img {
+	max-height: .8em;
+	max-width: 1em;
+	vertical-align: middle ;
+}
+
 a {color: royalblue; }
 a:hover {color: lightblue; }
 
@@ -32,20 +39,24 @@ body {
 	color: #fff ;
 	margin-bottom: 200px ;
 	font-family: "IBM Plex Serif", "Garamond", Georgia, serif, 'Noto Color Emoji', 'Apple Color Emoji', 'Segoe UI Emoji';
+	line-height: 1.6;
 }
 
 p {
 	font-size: 18px;
 }
 
-.lw, dt img, dd img, p img, li img, h1 img, h2 img, h3 img, h4 img, dt img, td img, button img {
-	max-height: .8em;
-	max-width: 1em;
-	vertical-align: middle ;
-}
 
 h1 { color: chocolate ; }
 h2 { color: sandybrown ; }
 h3 { color: tan ; }
 h4 { color: wheat ; }
 h5, h6 { color: cornsilk ; }
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
